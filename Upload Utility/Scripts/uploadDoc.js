@@ -1,7 +1,7 @@
 ﻿$(function () {
     $("#submit").click(function () {
         $.ajax({
-            url: "test.html",
+            url: "UploadGoogleSheets/Index",
             cache: false,
             success: function (html) {
                 $("#results").append(html);

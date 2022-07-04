@@ -57,7 +57,7 @@ namespace UploadUtility.Business
 
                 // Define request parameters.
                 var spreadsheetId = "1GB-8c9ILWyWrQzT-7rQ9Un4X3W4-EyLLxXxMTp4d5KY";
-                var range = "Personal Information!A2:E";
+                var range = "Personal Information!A2:F32";
                 SpreadsheetsResource.ValuesResource.GetRequest request =
                     service.Spreadsheets.Values.Get(spreadsheetId, range);
 

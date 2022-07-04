@@ -1,0 +1,11 @@
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\bin\Debug\netcoreapp3.1\credentials.json
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\bin\Debug\netcoreapp3.1\UploadUtility.Business.deps.json
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\bin\Debug\netcoreapp3.1\UploadUtility.Business.dll
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\bin\Debug\netcoreapp3.1\UploadUtility.Business.pdb
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.csproj.AssemblyReference.cache
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.AssemblyInfoInputs.cache
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.AssemblyInfo.cs
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.csproj.CoreCompileInputs.cache
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.dll
+C:\Users\abhin\Source\Repos\Upload-Utility\UploadUtility.Business\obj\Debug\netcoreapp3.1\UploadUtility.Business.pdb

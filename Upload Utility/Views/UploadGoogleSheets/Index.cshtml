@@ -1,4 +1,4 @@
-﻿@model Upload_Utility.Models.SheetMetaData
+﻿@model Upload_Utility.Models.SheetDetails
 
 @{
     ViewBag.Title = "Index";
@@ -10,17 +10,41 @@
 <form method="post">
     <div>
         @Html.TextBoxFor(m => m.SheetURL, new { placeholder = "Enter Sheet URL" })
-        <button id="submit"> Read Google Sheets</button>
+        <button> Read Google Sheets</button>
         <table class="table table-bordered table-condensed table-hover table-striped">
             <thead>
                 <tr>
-                    <th>Id</th>
                     <th>Name</th>
-                    <th>City</th>
-                    <th>Address</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>State</th>
+                    <th>Major</th>
+                    <th>Activity</th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+                @{
+                    if (Model!=null && Model.SheetMetaData!=null && Model.SheetMetaData.Count > 0)
+                    {
+                        foreach (var item in Model.SheetMetaData)
+                        {
+                            <tr>
+                                <td>@item.StudentName</td>
+                           
+                                <td>@item.Gender</td>
+                          
+                                <td>@item.Class</td>
+                            
+                                <td>@item.State</td>
+                          
+                                <td>@item.Major</td>
+                           
+                                <td>@item.Activity</td>
+                            </tr>
+                       }
+                    }
+                }
+            </tbody>
         </table>
     </div>
 </form>
